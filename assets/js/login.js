@@ -33,6 +33,8 @@ $(function() {
             }
             console.log(res.message);
             localStorage.setItem('token-DSJ', res.token)
+            location.href = '/index.html'
+
         })
     })
 })
